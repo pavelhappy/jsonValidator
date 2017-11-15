@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON checker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<div id="uploadJSONform" ondrop="drop(event)" ondragover="allowDrop(event)" class="uploadJSONform">
+    <div class="uploadButton">Выберите файл</div>
+    <div class="uploadText">или перетащите его сюда</div>
+    <input type="file" id="uploadButton" class="invisible">
+</div>
+
+<div class="invisible err" id="err"></div>
+<script src="main.js"></script>
+</body>
+</html>
